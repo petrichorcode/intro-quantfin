@@ -23,7 +23,7 @@ python -V
 
 if it fails, you should install Python, if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you may encounter problems and we recommend also installing `Python 2.7`.
 
-* *Anaconda* (for `Python 2.7`) which you can get [here](https://docs.continuum.io/anaconda/install):
+* [*Anaconda*](https://docs.continuum.io/anaconda/install) (for `Python 2.7`):
 a package manager for Data Science libraries in Python which includes some of the packages you need for
 this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. If you want to manage your
 Python environment in your own way, make sure you have those installed.
