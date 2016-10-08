@@ -4,8 +4,8 @@
 
 For this course you will need:
 
-* *Python 2.7* and *Anaconda*
-* *Plotly* and *Requests* (install via pip)
+* *Python 2.7* (which you probably already have) and [*Anaconda*](https://docs.continuum.io/anaconda/install)
+* *Plotly* and *Requests* (install via `pip`)
 
 Download the files from this repository into an appropriate folder, open Jupyter notebook and you're ready to go.
 
@@ -15,19 +15,28 @@ In order to follow this course you need to install the following software on
 your machine:
 
 * *Python 2.7*: unfortunately, version compatibility in Python is still an issue
-and  Python 3.x may not work.
+and  Python 3.x may not work. You may already have Python on your system, to check this, in your terminal write
+
+```bash
+python -V
+```
+
+if it fails, you should install Python, if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you may encounter problems and we recommend also installing `Python 2.7`.
+
 * *Anaconda* (for `Python 2.7`) which you can get [here](https://docs.continuum.io/anaconda/install):
-a package manager for Python which includes some of the packages you need for
-this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `jupyter`. If you want to manage your
+a package manager for Data Science libraries in Python which includes some of the packages you need for
+this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. If you want to manage your
 Python environment in your own way, make sure you have those installed.
-* *plotly* (`pip install plotly`): a library you will use to plot data.
-* *requests* (`pip install requests`): a library you will use to retrieve information from a website (we will use it to retrieve quotes from Yahoo Finance).
+* *plotly* and *requests* two Python libraries, the first one to plot data interactively, the second to retrieve informations from a website (e.g., quotes from Yahoo Finance). To install those two, you can use `pip` in your terminal:
 
-Finally, you need to download the file `cca_imc_library.py` from
-this repository.
-We recommend you place it in a fresh directory, say `introQF`, where all your code for this course is going to live.
+```bash
+pip install plotly requests
+```
 
-You're now ready to go: open a terminal in the `introQF` directory and use the command `jupyter notebook` to start a new notebook. You can then open the skeleton notebook `introQF.ipynb` (also available in this repository) and get started with the course.
+Finally, you need to download the files `cca_imc_library.py` and `introQF.ipynb` from this repository.
+We recommend you place them in a fresh directory, say `introQF`, where all your code for this course is going to live.
+
+You're now ready to go: open a terminal in the `introQF` directory and use the command `jupyter notebook` to start a new notebook. You can then open the skeleton notebook `introQF.ipynb` and get started with the course.
 
 ## Remarks
 
