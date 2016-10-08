@@ -2,12 +2,9 @@
 
 ## Setup instructions for the impatient
 
-For this course you will need:
-
-* *Python 2.7* (which you probably already have) and [*Anaconda*](https://docs.continuum.io/anaconda/install)
-* *Plotly* and *Requests* (install via `pip`)
-
-Download the files from this repository into an appropriate folder, open Jupyter notebook and you're ready to go.
+* clone this repo
+* install [*Anaconda*](https://docs.continuum.io/anaconda/install)
+* `pip install plotly requests`
 
 ## Complete setup instructions
 
