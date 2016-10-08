@@ -27,7 +27,7 @@ if it fails, you should install Python, if it returns `Python 2.7.x` you're fine
 a package manager for Data Science libraries in Python which includes some of the packages you need for
 this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. If you want to manage your
 Python environment in your own way, make sure you have those installed.
-* *plotly* and *requests* two Python libraries, the first one to plot data interactively, the second to retrieve informations from a website (e.g., quotes from Yahoo Finance). To install those two, you can use `pip` in your terminal:
+* *Plotly* and *requests* two Python libraries, the first one to plot data interactively, the second to retrieve informations from a website (e.g., quotes from Yahoo Finance). To install those two, you can use `pip` in your terminal:
 
 ```bash
 pip install plotly requests
