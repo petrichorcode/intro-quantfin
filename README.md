@@ -14,14 +14,14 @@ Download the files from this repository into an appropriate folder, open Jupyter
 In order to follow this course you need to install the following software on
 your machine:
 
-* *Python 2.7*: Unfortunately, version compatibility in Python is still an issue
+* *Python 2.7*: unfortunately, version compatibility in Python is still an issue
 and  Python 3.x may not work.
 * *Anaconda* (for `Python 2.7`) which you can get [here](https://docs.continuum.io/anaconda/install):
-A package manager for Python which includes some of the packages you need for
+a package manager for Python which includes some of the packages you need for
 this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `jupyter`. If you want to manage your
 Python environment in your own way, make sure you have those installed.
-* *plotly* (`pip install plotly`): A library you will use to plot data.
-* *requests* (`pip install requests`): A library you will use to retrieve information from a website (we will use it to retrieve quotes from Yahoo Finance).
+* *plotly* (`pip install plotly`): a library you will use to plot data.
+* *requests* (`pip install requests`): a library you will use to retrieve information from a website (we will use it to retrieve quotes from Yahoo Finance).
 
 Finally, you need to download the file `cca_imc_library.py` from
 this repository.
