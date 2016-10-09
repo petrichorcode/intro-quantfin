@@ -9,7 +9,7 @@ try:
     from pandas import read_csv
 except ImportError as e:
     print(e)
-    raise Exception("CCA_LIB::ANACONDA may not have been installed properly?")
+    raise Exception("ANACONDA may not have been installed properly?")
 
 # ---------------------------------
 # specific libraries
@@ -25,7 +25,7 @@ try:
     from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
     init_notebook_mode()
 except ImportError:
-    raise Exception("CCA_LIB::PLOTLY may not have been installed properly, please try entering \"pip install plotly\" in your terminal.")
+    raise Exception("PLOTLY may not have been installed properly, please try entering \"pip install plotly\" in your terminal.")
 
 # -----
 # other
