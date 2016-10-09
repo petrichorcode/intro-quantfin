@@ -11,16 +11,15 @@
 In order to follow this course you need to install the following software on
 your machine:
 
-* *Python 2.7*: unfortunately, version compatibility in Python is still an issue
-and  Python 3.x may not work. You may already have Python on your system, to check this, in your terminal write
+* *Python 2.7* (recommended) or *Python 3.5*. You may already have Python on your system, to check this, in your terminal write
 
 ```bash
 python -V
 ```
 
-if it fails, you should install Python, if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you may encounter problems and we recommend also installing `Python 2.7`.
+if it fails, you should install Python, if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you should be fine but may encounter problems running the game so we recommend also installing `Python 2.7`.
 
-* [*Anaconda*](https://docs.continuum.io/anaconda/install) (for `Python 2.7`):
+* [*Anaconda*](https://docs.continuum.io/anaconda/install):
 a package manager for Data Science libraries in Python which includes some of the packages you need for
 this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. If you want to manage your
 Python environment in your own way, make sure you have those installed.
