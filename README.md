@@ -17,7 +17,7 @@ your machine:
 python -V
 ```
 
-if it fails, you should install Python, if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you should be fine but may encounter problems running the game so we recommend also installing `Python 2.7`.
+if it fails, you should [*install Python*](https://www.python.org/downloads/), if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you should be fine but may encounter problems running the game so we recommend also installing `Python 2.7`.
 
 * [*Anaconda*](https://docs.continuum.io/anaconda/install):
 a package manager for Data Science libraries in Python which includes some of the packages you need for
