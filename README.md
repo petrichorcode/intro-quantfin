@@ -1,5 +1,9 @@
 # Introduction to Quantitative Finance
 
+@REVIEWERS for the dry run:
+
+please write your comments [*here* (google doc)](https://goo.gl/NQTMwY)
+
 ## Setup instructions for the impatient
 
 * clone this repo
