@@ -2,7 +2,7 @@
 
 @REVIEWERS for the dry run:
 
-please write your comments [*here* (google doc)](https://goo.gl/NQTMwY)
+please write your comments [*here* (google doc)](https://goo.gl/BnnBpe)
 
 ## Setup instructions for the impatient
 
