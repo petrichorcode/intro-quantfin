@@ -1,8 +1,12 @@
 # Introduction to Quantitative Finance
 
-@REVIEWERS for the dry run:
+[**Link to content**](http://beta.cambridgespark.com/courses/public/html/index.html)
+
+## Comment for beta testers
 
 please write your comments [*here* (google doc)](https://goo.gl/BnnBpe)
+
+(every small comment is potentially useful for us so comment away!)
 
 ## Setup instructions for the impatient
 
