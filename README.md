@@ -1,5 +1,7 @@
 # Introduction to Quantitative Finance
 
+[**Link to competition files**](http://beta.cambridgespark.com/courses/public/students.zip)
+
 [**Link to content**](http://beta.cambridgespark.com/courses/public/html/index.html)
 
 ## Comment for beta testers
