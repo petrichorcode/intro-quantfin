@@ -38,7 +38,7 @@ Python environment in your own way, make sure you have those installed.
 pip install plotly requests
 ```
 
-Finally, you need to download the files `introQF_library.py` and `introQF_skeleton.ipynb` from this repository.
+Finally, you need to download the files `introQF_library.py` and `introQF_skeleton.ipynb` from this repository as well as the data files `pdata_AAPL_2005_2013.csv` and `pdata_GOOG_2005_2013.csv`.
 We recommend you place them in a fresh directory, say `introQF`, where all your code for this course is going to live.
 
 You're now ready to go: open a terminal in the `introQF` directory and use the command `jupyter notebook` to start a new notebook. You can then open the skeleton notebook `introQF.ipynb` and get started with the course.
