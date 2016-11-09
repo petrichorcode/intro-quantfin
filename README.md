@@ -1,20 +1,20 @@
 # Introduction to Quantitative Finance
 
+<!---
 [**Link to competition files**](http://beta.cambridgespark.com/courses/public/students.zip)
 
-[**Link to content**](http://beta.cambridgespark.com/courses/public/html/index.html)
+(if you're reading this comment before the event, those links will become live on the day.)
 
-## Comment for beta testers
-
-please write your comments [*here* (google doc)](https://goo.gl/BnnBpe)
-
-(every small comment is potentially useful for us so comment away!)
+[comment]: <> [**Link to content**](http://beta.cambridgespark.com/courses/public/html/index.html)
+--->
 
 ## Setup instructions for the impatient
 
 * clone this repo
 * install [*Anaconda*](https://docs.continuum.io/anaconda/install)
 * `pip install plotly requests`
+
+Then, if your Python is a bit rusty, please open Jupyter (Terminal: `jupyter notebook`) and go through the `introQF_pythonWarmup.ipynb` notebook.
 
 ## Complete setup instructions
 
@@ -27,11 +27,10 @@ your machine:
 python -V
 ```
 
-if it fails, you should [*install Python*](https://www.python.org/downloads/), if it returns `Python 2.7.x` you're fine, if it returns `Python 3.x` you should be fine but may encounter problems running the game so we recommend also installing `Python 2.7`.
-
+if it fails, you should [*install Python*](https://www.python.org/downloads/), if it returns `Python 2.7.x` or `Python 3.x` you're fine.
 * [*Anaconda*](https://docs.continuum.io/anaconda/install):
 a package manager for Data Science libraries in Python which includes some of the packages you need for
-this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. If you want to manage your
+this course (`pip`, `numpy`, `scipy`, `pandas`) as well as `Jupyter`. Make sure you install the right version (Anaconda  4.1 for Python 2.7.x and 4.2 for Py3.x). If you want to manage your
 Python environment in your own way, make sure you have those installed.
 * *Plotly* and *requests* two Python libraries, the first one to plot data interactively, the second to retrieve informations from a website (e.g., quotes from Yahoo Finance). To install those two, you can use `pip` in your terminal:
 
@@ -47,4 +46,4 @@ You're now ready to go: open a terminal in the `introQF` directory and use the c
 ## Remarks
 
 * If you have never used Jupyter notebooks, [this tutorial](http://jupyter.readthedocs.io/en/latest/running.html) gets you running very quickly. Essentially, cells contain short chunks of code that can be executed pressing `MAJ+ENTER`.
-* If your Python is a bit rusty of if you have never really coded in Python, please go through the Python warm-up notebook `introQF_pythonWarmup.ipynb` also available in the repository. This notebook will walk you very quickly through the main tools you will use in the workshop (basic types, control statements, functions, lambdas, a bit of `numpy`, `plotly` and `matplotlib`).
+* If your Python is a bit rusty of if you have never really coded in Python, we **strongly encourage** you to go through the Python warm-up notebook `introQF_pythonWarmup.ipynb` also available in the repository. This notebook will walk you very quickly through the main tools you will use in the workshop (basic types, control statements, functions, lambdas, a bit of `numpy`, `plotly` and `matplotlib`).
